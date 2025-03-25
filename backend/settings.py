@@ -168,3 +168,12 @@ SIMPLE_JWT = {
     "ROTATE_REFRESH_TOKENS": True,
     "BLACKLIST_AFTER_ROTATION": True,
 }
+
+# CORS settings
+CORS_ALLOWED_ORIGINS = [
+    "https://trip-k94t.onrender.com",
+    "http://127.0.0.1:8000",
+    "http://localhost:8000",
+]
+
+CORS_ALLOW_CREDENTIALS = True
