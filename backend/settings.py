@@ -32,7 +32,11 @@ SECRET_KEY = 'django-insecure-l$25dfz*rqvu=iz0ww%qtvrz*%n5$*&g9@p0e1)#x7v_l5jt(#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'https://trip-k94t.onrender.com'
+]
 
 
 # Application definition
